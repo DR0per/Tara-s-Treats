@@ -11,11 +11,12 @@ body {
     font: vollkorn, sans-serif;
     font-weight: 250;
     color: black;
+    background-color: #4b06e0;
 }
 
 h1, h2 {
     font: Merienda, sans-serif;
-    color: #4F09E1;
+    color: whitesmoke;
     text-transform: uppercase;
     letter-spacing: 3px;
 }
@@ -38,7 +39,7 @@ h1, h2 {
 }
 
 #nav-bar a {
-    color: #4F09E1;
+    color: whitesmoke;
     font: Merienda, sans-serif;
 }
 
