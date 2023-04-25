@@ -59,18 +59,21 @@ h1, h2 {
 }
 
 #main-image {
-    width: 100%;
+    max-width: auto;
     height: 500px;
+    border: 3px whitesmoke solid;
     overflow: hidden;
+    clear: both;
+    display: block;
 }
 
 img {
-    object-fit: fill;
-    clear: both;
-    overflow: hidden;
-}
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    object-fit: contain;
 
-.main-image-section {
-    height: 500px;
-    width: 100%;
 }
