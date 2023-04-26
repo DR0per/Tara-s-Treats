@@ -62,53 +62,44 @@ h1, h2 {
     font-family: merienda, sans-serif;
 }
 
-#main-image {
-    max-width: auto;
+.about-us {
     height: 500px;
-    border: 3px whitesmoke solid;
-    overflow: hidden;
+    width: 100%;
+    background-color: silver;
     clear: both;
-    display: block;
-}
-
-img {
-    max-width: 100%;
-    height: auto;
-    margin: 0 auto;
-    padding: 0;
-    background-size: cover;
-    background-position: center;
-    object-fit: contain;
-
 }
 
 .buns {
     height: 350px;
-    width: 33%;
+    width: 20%;
     background-color: red;
     display: inline-block;
     border: 3px solid whitesmoke;
     box-sizing: border-box;
+    margin-left: 80px;
 }
 
 
 .cakes {
     height: 350px;
-    width: 33%;
+    width: 20%;
     background-color: green;
     display: inline-block;
     border: 3px solid whitesmoke;
     box-sizing: border-box;
+    margin-left: 310px;
 }
 
 
 .special-occasions {
     height: 350px;
-    width: 33%;
+    width: 20%;
     background-color: yellow;
     display: inline-block;
     border: 3px solid whitesmoke;
     box-sizing: border-box;
+    float: right;
+    margin-right: 80px;
 }
 
 .buns img {
