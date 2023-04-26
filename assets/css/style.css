@@ -87,6 +87,7 @@ img {
     box-sizing: border-box;
 }
 
+
 .cakes {
     height: 350px;
     width: 33%;
@@ -104,4 +105,28 @@ img {
     display: inline-block;
     border: 3px solid whitesmoke;
     box-sizing: border-box;
+}
+
+.buns img {
+    height: 350px;
+    width: 100%;
+    object-fit: fill;
+    background-size: cover;
+    background-position: center;
+}
+
+.cakes img {
+    height: 350px;
+    width: 100%;
+    object-fit: fill;
+    background-size: cover;
+    background-position: center;
+}
+
+.special-occasions img {
+    height: 350px;
+    width: 100%;
+    object-fit: fill;
+    background-size: cover;
+    background-position: center;
 }
