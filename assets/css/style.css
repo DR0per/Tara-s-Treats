@@ -52,6 +52,10 @@ h1, h2 {
     color: #EFDF42;
 }
 
+#treat-logo:hover {
+    color: #EFDF42;
+}
+
 .homemade {
     text-align: center;
     font-weight: 500;
