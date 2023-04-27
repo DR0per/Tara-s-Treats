@@ -76,8 +76,6 @@ h1, h2 {
     display: inline-block;
     box-sizing: border-box;
     margin-left: 80px;
-    border: 2px #4b06e0 solid;
-    border-radius: 50%;
 }
 
 
@@ -87,8 +85,6 @@ h1, h2 {
     display: inline-block;
     box-sizing: border-box;
     margin-left: 300px;
-    border: 2px #4b06e0 solid;
-    border-radius: 50%;
 }
 
 
@@ -98,35 +94,36 @@ h1, h2 {
     box-sizing: border-box;
     float: right;
     margin-right: 80px;
-    border: 2px #4b06e0 solid;
-    border-radius: 50%;
 }
 
 .buns img {
     height: 350px;
-    width: 100%;
+    width: 350px;
     object-fit: fill;
     background-size: cover;
     background-position: center;
     border-radius: 50%;
+    border: 3px #4b06e0 solid;
 }
 
 .cakes img {
     height: 350px;
-    width: 100%;
+    width: 350px;
     object-fit: fill;
     background-size: cover;
     background-position: center;
     border-radius: 50%;
+    border: 3px #4b06e0 solid;
 }
 
 .special-occasions img {
     height: 350px;
-    width: 100%;
+    width: 350px;
     object-fit: fill;
     background-size: cover;
     background-position: center;
     border-radius: 50%;
+    border: 3px #4b06e0 solid;
 }
 
 .buns h2 {
