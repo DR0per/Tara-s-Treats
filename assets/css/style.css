@@ -8,15 +8,15 @@
 }
 
 body {
-    font-family: vollkorn, sans-serif;
-    font-weight: 250;
+    font-family: Vollkorn, sans-serif;
+    font-weight: 550;
     color: black;
-    background-color: #4b06e0;
+    text-align: justify;
 }
 
 h1, h2 {
     font-family: Merienda, sans-serif;
-    color: whitesmoke;
+    color: #4b06e0;
     text-transform: uppercase;
     letter-spacing: 3px;
 }
@@ -39,7 +39,7 @@ h1, h2 {
 }
 
 #nav-bar a {
-    color: whitesmoke;
+    color: #4b06e0;
     font-family: Merienda, sans-serif;
     text-transform: uppercase;
 }
@@ -65,41 +65,41 @@ h1, h2 {
 .about-us {
     height: 500px;
     width: 100%;
-    background-color: silver;
+    background-color: whitesmoke;
     clear: both;
+    border: 3px #4b06e0 solid;
 }
 
 .buns {
     height: 350px;
-    width: 20%;
-    background-color: red;
+    width: 350px;
     display: inline-block;
-    border: 3px solid whitesmoke;
     box-sizing: border-box;
     margin-left: 80px;
+    border: 2px #4b06e0 solid;
+    border-radius: 50%;
 }
 
 
 .cakes {
     height: 350px;
-    width: 20%;
-    background-color: green;
+    width: 350px;
     display: inline-block;
-    border: 3px solid whitesmoke;
     box-sizing: border-box;
-    margin-left: 310px;
+    margin-left: 300px;
+    border: 2px #4b06e0 solid;
+    border-radius: 50%;
 }
 
 
 .special-occasions {
     height: 350px;
-    width: 20%;
-    background-color: yellow;
-    display: inline-block;
-    border: 3px solid whitesmoke;
+    width: 350px;
     box-sizing: border-box;
     float: right;
     margin-right: 80px;
+    border: 2px #4b06e0 solid;
+    border-radius: 50%;
 }
 
 .buns img {
@@ -108,6 +108,7 @@ h1, h2 {
     object-fit: fill;
     background-size: cover;
     background-position: center;
+    border-radius: 50%;
 }
 
 .cakes img {
@@ -116,6 +117,7 @@ h1, h2 {
     object-fit: fill;
     background-size: cover;
     background-position: center;
+    border-radius: 50%;
 }
 
 .special-occasions img {
@@ -124,4 +126,27 @@ h1, h2 {
     object-fit: fill;
     background-size: cover;
     background-position: center;
+    border-radius: 50%;
 }
+
+.buns h2 {
+    text-align: center;
+}
+
+.cakes h2 {
+    text-align: center;
+}
+
+.special-occasions h2 {
+    text-align: center;
+}
+
+.about-us > p {
+    font-size: 300%;
+    text-align: center;
+}
+strong:hover {
+    color: #4b06e0;
+}
+
+
