@@ -10,8 +10,9 @@
 body {
     font-family: Vollkorn, sans-serif;
     font-weight: 550;
-    color: black;
+    color: whitesmoke;
     text-align: justify;
+    background-color: black;
 }
 
 h1, h2 {
@@ -60,12 +61,14 @@ h1, h2 {
     text-align: center;
     font-weight: 500;
     font-family: merienda, sans-serif;
+    margin-top: 5%;
+    text-transform: uppercase;
 }
 
 .about-us {
     height: 500px;
     width: 100%;
-    background-color: whitesmoke;
+    background-color: black;
     clear: both;
     border: 3px #4b06e0 solid;
 }
@@ -76,6 +79,7 @@ h1, h2 {
     display: inline-block;
     box-sizing: border-box;
     margin-left: 80px;
+    margin-top: 5%;
 }
 
 
@@ -85,6 +89,7 @@ h1, h2 {
     display: inline-block;
     box-sizing: border-box;
     margin-left: 300px;
+    margin-top: 5%;
 }
 
 
@@ -94,6 +99,7 @@ h1, h2 {
     box-sizing: border-box;
     float: right;
     margin-right: 80px;
+    margin-top: 5%;
 }
 
 .buns img {
@@ -128,22 +134,29 @@ h1, h2 {
 
 .buns h2 {
     text-align: center;
+    text-transform: uppercase;
 }
 
 .cakes h2 {
     text-align: center;
+    text-transform: uppercase;
 }
 
 .special-occasions h2 {
     text-align: center;
+    text-transform: uppercase;
 }
 
 .about-us > p {
     font-size: 300%;
     text-align: center;
+    color: whitesmoke;
 }
 strong:hover {
     color: #4b06e0;
 }
 
+a > h2:hover {
+    color: #EFDF42;
+}
 
