@@ -12,12 +12,12 @@ body {
     font-weight: 550;
     color: whitesmoke;
     text-align: justify;
-    background-color: black;
+    background-color: #66a4fa;
 }
 
 h1, h2 {
     font-family: Merienda, sans-serif;
-    color: #4b06e0;
+    color: #fedb5d;
     text-transform: uppercase;
     letter-spacing: 3px;
 }
@@ -40,7 +40,7 @@ h1, h2 {
 }
 
 #nav-bar a {
-    color: #4b06e0;
+    color: #fedb5d;
     font-family: Merienda, sans-serif;
     text-transform: uppercase;
 }
@@ -50,7 +50,7 @@ h1, h2 {
 }
 
 #nav-bar a:hover, #treat-logo:hover {
-    color: #EFDF42;
+    color: #dca08e;
 }
 
 
@@ -66,9 +66,9 @@ h1, h2 {
 .about-us {
     height: 500px;
     width: 100%;
-    background-color: black;
+    background-color: #dca08e;
     clear: both;
-    border: 3px #4b06e0 solid;
+    border: 3px #fedb5d solid;
 }
 
 .buns {
@@ -107,7 +107,7 @@ h1, h2 {
     background-size: cover;
     background-position: center;
     border-radius: 50%;
-    border: 3px #4b06e0 solid;
+    border: 3px #fedb5d solid;
 }
 
 .buns h2, .cakes h2, .special-occasions h2 {
@@ -118,13 +118,13 @@ h1, h2 {
 .about-us > p {
     font-size: 300%;
     text-align: center;
-    color: whitesmoke;
+    color: black;
 }
 strong:hover {
-    color: #4b06e0;
+    color: #fedb5d;
 }
 
 a > h2:hover {
-    color: #EFDF42;
+    color: #dca08e;
 }
 
