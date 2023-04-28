@@ -40,33 +40,9 @@ h1, h2 {
     border: 3px #fedb5d solid;
 }
 
-.buns {
-    height: 350px;
-    width: 350px;
-    display: inline-block;
-    box-sizing: border-box;
-    margin-left: 80px;
-    margin-top: 5%;
-}
-
-
-.cakes {
-    height: 350px;
-    width: 350px;
-    display: inline-block;
-    box-sizing: border-box;
-    margin-left: 300px;
-    margin-top: 5%;
-}
-
-
-.special-occasions {
-    height: 350px;
-    width: 350px;
-    box-sizing: border-box;
-    float: right;
-    margin-right: 80px;
-    margin-top: 5%;
+.buns, .cakes, .special-occasions {
+    width: 100%;
+    height: 3rem;
 }
 
 .buns img, .cakes img, .special-occasions img {
@@ -85,7 +61,7 @@ h1, h2 {
 }
 
 footer {
-    height: 250px;
+    height: 3rem;
 }
 
 .social-links {
@@ -97,10 +73,9 @@ footer {
 }
 
 .social-links i {
-    font-size: 200%;
-    margin: 3%;
-    padding: 5%;
+    font-size: 3rem;
     color: #fedb5d;
+    letter-spacing: 3rem;
 }
 
 #treat-logo {
@@ -137,7 +112,7 @@ footer {
 }
 
 .about-us > p {
-    font-size: 290%;
+    font-size: 3rem;
     text-align: center;
     color: black;
 }
@@ -149,10 +124,3 @@ a > h2:hover {
     color: #b4506e;
 }
 
-#about-us-section {
-    margin-top: 5%;
-    padding-left: 5%;
-    padding-right: 5%;
-    margin-bottom: 5%;
-    position: relative;
-}
