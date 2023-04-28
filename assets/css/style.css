@@ -12,45 +12,14 @@ body {
     font-weight: 550;
     color: whitesmoke;
     text-align: justify;
-    background-color: #66a4fa;
+    background-color: #66a4fa   
 }
 
 h1, h2 {
     font-family: Merienda, sans-serif;
     color: #fedb5d;
     text-transform: uppercase;
-    letter-spacing: 3px;
-}
-
-#treat-logo {
-    float: left;  
-    font-size: 300%;
-    margin-left: 35px;
-}
-
-#nav-bar {
-    font-size: 150%;
-    letter-spacing: 6px;
-}
-
-#nav-bar li {
-    float: right;
-    list-style-type: none;
-    margin-right: 35px;
-}
-
-#nav-bar a {
-    color: #fedb5d;
-    font-family: Merienda, sans-serif;
-    text-transform: uppercase;
-}
-
-#treat-logo, #nav-bar {
-    line-height: 60px;
-}
-
-#nav-bar a:hover, #treat-logo:hover {
-    color: #dca08e;
+    text-decoration: none;
 }
 
 
@@ -66,7 +35,7 @@ h1, h2 {
 .about-us {
     height: 500px;
     width: 100%;
-    background-color: #dca08e;
+    background-color: #b4506e;
     clear: both;
     border: 3px #fedb5d solid;
 }
@@ -115,8 +84,41 @@ h1, h2 {
     text-transform: uppercase;
 }
 
-.about-us > p {
+#treat-logo {
+    float: left;  
     font-size: 300%;
+    margin-left: 35px;
+    letter-spacing: 6px;
+}
+
+#nav-bar {
+    font-size: 150%;
+    letter-spacing: 6px;
+}
+
+#nav-bar li {
+    float: right;
+    list-style-type: none;
+    margin-right: 35px;
+}
+
+#nav-bar a {
+    color: #fedb5d;
+    font-family: Merienda, sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+#treat-logo, #nav-bar {
+    line-height: 60px;
+}
+
+#nav-bar a:hover, #treat-logo:hover {
+    color: #b4506e;
+}
+
+.about-us > p {
+    font-size: 290%;
     text-align: center;
     color: black;
 }
@@ -125,6 +127,17 @@ strong:hover {
 }
 
 a > h2:hover {
-    color: #dca08e;
+    color: #b4506e;
 }
 
+#about-us-section {
+    margin-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 5%;
+    position: relative;
+}
+
+header {
+    background-color: red;
+}
