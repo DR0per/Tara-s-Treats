@@ -49,13 +49,10 @@ h1, h2 {
     line-height: 60px;
 }
 
-#nav-bar a:hover {
+#nav-bar a:hover, #treat-logo:hover {
     color: #EFDF42;
 }
 
-#treat-logo:hover {
-    color: #EFDF42;
-}
 
 .homemade {
     text-align: center;
@@ -103,7 +100,7 @@ h1, h2 {
     margin-top: 5%;
 }
 
-.buns img {
+.buns img, .cakes img, .special-occasions img {
     height: 350px;
     width: 350px;
     object-fit: fill;
@@ -113,37 +110,7 @@ h1, h2 {
     border: 3px #4b06e0 solid;
 }
 
-.cakes img {
-    height: 350px;
-    width: 350px;
-    object-fit: fill;
-    background-size: cover;
-    background-position: center;
-    border-radius: 50%;
-    border: 3px #4b06e0 solid;
-}
-
-.special-occasions img {
-    height: 350px;
-    width: 350px;
-    object-fit: fill;
-    background-size: cover;
-    background-position: center;
-    border-radius: 50%;
-    border: 3px #4b06e0 solid;
-}
-
-.buns h2 {
-    text-align: center;
-    text-transform: uppercase;
-}
-
-.cakes h2 {
-    text-align: center;
-    text-transform: uppercase;
-}
-
-.special-occasions h2 {
+.buns h2, .cakes h2, .special-occasions h2 {
     text-align: center;
     text-transform: uppercase;
 }
