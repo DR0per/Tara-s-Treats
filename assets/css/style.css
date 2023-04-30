@@ -27,45 +27,48 @@ h1, h2 {
     text-align: center;
     font-weight: 500;
     font-family: merienda, sans-serif;
-    margin-top: 5%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
     text-transform: uppercase;
     font-size: xx-large;
 }
 
 .about-us {
-    height: 500px;
-    width: 100%;
-    background-color: #b4506e;
+    width: auto;
+    margin-inline: auto;
+    background-color: #F43F18;
     clear: both;
     border: 3px #fedb5d solid;
+    margin-top: 1.5rem;
 }
 
 .products {
-    width: 100%;
-    height: 500px;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-wrap: wrap;
+    
 }
 
-.products img, .products img, .products img {
+.buns img, .cakes img, .occasions img {
     height: 350px;
     width: 350px;
     object-fit: fill;
     background-size: cover;
     background-position: center;
     border-radius: 50%;
-    border: 3px #fedb5d solid;
+    border: 1rem #fedb5d solid;
 }
 
-.buns h2, .cakes h2, .special-occasions h2 {
+.buns h2, .cakes h2, .occasions h2 {
     text-align: center;
     text-transform: uppercase;
 }
 
 footer {
     height: 3rem;
-    margin-bottom: 3rem;
+    margin-bottom: 6rem;
+    margin-top: 6rem;
+    align-items: center;
 }
 
 .social-links {
@@ -85,19 +88,20 @@ footer {
 #treat-logo {
     float: left;  
     font-size: 3rem;
-    margin-left: 35px;
-    letter-spacing: 6px;
+    margin-left: 1.5rem;
+    letter-spacing: .5rem;
+    margin-bottom: 3rem;
 }
 
 #nav-bar {
-    font-size: 2rem;
-    letter-spacing: 6px;
+    font-size: 1.5rem;
+    letter-spacing: 3rem;
 }
 
 #nav-bar li {
     float: right;
     list-style-type: none;
-    margin-right: 35px;
+    margin-right: 1.5rem;
 }
 
 #nav-bar a {
@@ -112,20 +116,26 @@ footer {
 }
 
 #nav-bar a:hover, #treat-logo:hover {
-    color: #b4506e;
+    color: #F43F18;
 }
 
 .about-us > p {
-    font-size: 3rem;
+    font-size: 1.5rem;
     text-align: center;
     color: black;
     margin: 3rem 3rem ;
+    padding: 1.5rem;
 }
+
 strong:hover {
     color: #fedb5d;
 }
 
 a > h2:hover {
-    color: #b4506e;
+    color: #F43F18;
+}
+
+.social-links i:hover {
+    color: #F43F18;
 }
 
