@@ -57,6 +57,7 @@ h1, h2 {
     background-position: center;
     border-radius: 50%;
     border: 1rem #fedb5d solid;
+    transition: transform .2s;
 }
 
 .buns h2, .cakes h2, .occasions h2 {
@@ -144,4 +145,8 @@ a > h2:hover {
 
 a > h2 {
     text-decoration: none;
+}
+
+img:hover {
+    transform: scale(1.1);
 }
