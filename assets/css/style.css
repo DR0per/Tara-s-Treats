@@ -26,7 +26,7 @@ h1, h2 {
 .homemade {
     text-align: center;
     font-weight: 500;
-    font-family: merienda, sans-serif;
+    font-family: Merienda, sans-serif;
     margin-top: 3rem;
     margin-bottom: 3rem;
     text-transform: uppercase;
@@ -144,9 +144,13 @@ a > h2:hover {
 }
 
 a > h2 {
-    text-decoration: none;
+    margin-top: 1.5rem;
 }
 
 img:hover {
     transform: scale(1.1);
+}
+
+a {
+    text-decoration: none;
 }
