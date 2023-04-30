@@ -91,6 +91,7 @@ footer {
     margin-left: 1.5rem;
     letter-spacing: .5rem;
     margin-bottom: 3rem;
+    margin-top: 1.5rem;
 }
 
 #nav-bar {
@@ -102,6 +103,7 @@ footer {
     float: right;
     list-style-type: none;
     margin-right: 1.5rem;
+    margin-top: 1.5rem;
 }
 
 #nav-bar a {
@@ -112,7 +114,7 @@ footer {
 }
 
 #treat-logo, #nav-bar {
-    line-height: 60px;
+    line-height: 3rem;
 }
 
 #nav-bar a:hover, #treat-logo:hover {
