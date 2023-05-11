@@ -1,27 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Lato:ital,wght@1,300&family=Merienda:wght@500&family=Oswald:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Vollkorn&display=swap');
-
-*{
-    border: none;
-    margin: 0;
-    padding: 0;
-}
+@import url("https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Lato:ital,wght@1,300&family=Merienda:wght@500&family=Oswald:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Vollkorn&display=swap");
 
 body {
     font-family: Vollkorn, sans-serif;
     font-weight: 550;
     color: whitesmoke;
     text-align: justify;
-    background-color: #188BF4;
+    background-color: #188bf4;
 }
 
-h1, h2 {
+h1,
+h2 {
     font-family: Merienda, sans-serif;
     color: #fedb5d;
     text-transform: uppercase;
     text-decoration: none;
 }
-
 
 .homemade {
     text-align: center;
@@ -36,7 +30,7 @@ h1, h2 {
 .about-us {
     width: auto;
     margin-inline: auto;
-    background-color: #F43F18;
+    background-color: #f43f18;
     clear: both;
     border: 1rem #fedb5d solid;
     margin-top: 1.5rem;
@@ -46,10 +40,11 @@ h1, h2 {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    
 }
 
-.buns img, .cakes img, .occasions img {
+.buns img,
+.cakes img,
+.occasions img {
     height: 350px;
     width: 350px;
     object-fit: fill;
@@ -57,10 +52,12 @@ h1, h2 {
     background-position: center;
     border-radius: 50%;
     border: 1rem #fedb5d solid;
-    transition: transform .2s;
+    transition: transform 0.2s;
 }
 
-.buns h2, .cakes h2, .occasions h2 {
+.buns h2,
+.cakes h2,
+.occasions h2 {
     text-align: center;
     text-transform: uppercase;
     text-decoration: none;
@@ -88,10 +85,10 @@ footer {
 }
 
 #treat-logo {
-    float: left;  
+    float: left;
     font-size: 3rem;
     margin-left: 1.5rem;
-    letter-spacing: .5rem;
+    letter-spacing: 0.5rem;
     margin-bottom: 3rem;
     margin-top: 1.5rem;
 }
@@ -115,12 +112,14 @@ footer {
     text-decoration: none;
 }
 
-#treat-logo, #nav-bar {
+#treat-logo,
+#nav-bar {
     line-height: 3rem;
 }
 
-#nav-bar a:hover, #treat-logo:hover {
-    color: #F43F18;
+#nav-bar a:hover,
+#treat-logo:hover {
+    color: #f43f18;
 }
 
 #treat-photos {
@@ -138,7 +137,7 @@ footer {
     font-size: 1.5rem;
     text-align: center;
     color: black;
-    margin: 3rem 3rem ;
+    margin: 3rem 3rem;
     padding: 1.5rem;
 }
 
@@ -147,11 +146,11 @@ strong:hover {
 }
 
 a > h2:hover {
-    color: #F43F18;
+    color: #f43f18;
 }
 
 .social-links i:hover {
-    color: #F43F18;
+    color: #f43f18;
 }
 
 a > h2 {
@@ -166,9 +165,7 @@ a {
     text-decoration: none;
 }
 
-
-/* form styling */ 
-
+/* form styling */
 
 .form {
     width: 250px;
@@ -180,13 +177,12 @@ a {
     margin: auto;
 }
 
-input[type="text"], input[type="email"], input[type="tel"] {
-        
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
     padding: 0.5rem;
     border-radius: 1rem;
-
 }
-
 
 textarea {
     width: 100%;
@@ -194,9 +190,28 @@ textarea {
     border-radius: 1rem;
     height: 100px;
     padding: 0.5rem;
-
 }
 
-.regarding, .fname, .lname, .email, .enquiry, .submit, .mobile {
-    color: #F43F18;
+.regarding,
+.fname,
+.lname,
+.email,
+.enquiry,
+.submit,
+.mobile {
+    color: #fedb5d;
+}
+
+form > h1 {
+    color: #f43f18;
+}
+
+@media only screen and (max-width: 500px) {
+    .mobile-hidden {
+        display: none;
+    }
+
+    #treat-photos {
+        column-count: 2;
+    }
 }
