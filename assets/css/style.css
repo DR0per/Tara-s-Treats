@@ -32,8 +32,8 @@ h2 {
     margin-inline: auto;
     background-color: #f43f18;
     clear: both;
-    border: 1rem #fedb5d solid;
-    margin-top: 1.5rem;
+    border: 10px #fedb5d solid;
+    margin-top: 5px;
 }
 
 .products {
@@ -51,7 +51,7 @@ h2 {
     background-size: cover;
     background-position: center;
     border-radius: 50%;
-    border: 1rem #fedb5d solid;
+    border: 5px #fedb5d solid;
     transition: transform 0.2s;
 }
 
@@ -65,9 +65,10 @@ h2 {
 
 footer {
     height: 3rem;
-    margin-bottom: 6rem;
-    margin-top: 6rem;
+    padding-bottom: 6rem;
+    padding-top: 6rem;
     align-items: center;
+    background-color: #fedb5d;
 }
 
 .social-links {
@@ -80,29 +81,30 @@ footer {
 
 .social-links i {
     font-size: 3rem;
-    color: #fedb5d;
+    color: #188bf4;
     letter-spacing: 3rem;
 }
 
 #treat-logo {
     float: left;
-    font-size: 3rem;
-    margin-left: 1.5rem;
-    letter-spacing: 0.5rem;
-    margin-bottom: 3rem;
-    margin-top: 1.5rem;
+    font-size: 2rem;
+    margin-left: 10px;
+    letter-spacing: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 #nav-bar {
     font-size: 1.5rem;
-    letter-spacing: 3rem;
+    letter-spacing: 10px;
 }
 
 #nav-bar li {
     float: right;
     list-style-type: none;
-    margin-right: 1.5rem;
-    margin-top: 1.5rem;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 #nav-bar a {
@@ -114,7 +116,7 @@ footer {
 
 #treat-logo,
 #nav-bar {
-    line-height: 3rem;
+    line-height: 10px;
 }
 
 #nav-bar a:hover,
@@ -131,19 +133,17 @@ footer {
 
 #treat-photos > img {
     width: 100%;
+    padding: 4px;
 }
 
 .about-us > p {
     font-size: 1.5rem;
     text-align: center;
-    color: black;
-    margin: 3rem 3rem;
-    padding: 1.5rem;
+    color: white;
+    margin: 4px;
+    padding: 10px;
 }
 
-strong:hover {
-    color: #fedb5d;
-}
 
 a > h2:hover {
     color: #f43f18;
@@ -168,19 +168,18 @@ a {
 /* form styling */
 
 .form {
-    width: 250px;
-    padding: 20px;
+    width: 50%;
+    padding: 40px;
     box-sizing: border-box;
-    border: 1rem solid #fedb5d;
     clear: both;
     border-radius: 1rem;
     margin: auto;
+    background-color: #f43f18;
 }
 
 input[type="text"],
 input[type="email"],
 input[type="tel"] {
-    padding: 0.5rem;
     border-radius: 1rem;
 }
 
@@ -199,12 +198,14 @@ textarea {
 .enquiry,
 .submit,
 .mobile {
-    color: #fedb5d;
+    color: white;
 }
 
+
 form > h1 {
-    color: #f43f18;
+    color: white;
 }
+
 
 @media only screen and (max-width: 500px) {
     .mobile-hidden {
@@ -214,4 +215,17 @@ form > h1 {
     #treat-photos {
         column-count: 2;
     }
+
+    .buns img,
+    .cakes img,
+    .occasions img {
+    height: 200px;
+    width: 200px;
+    object-fit: fill;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    border: 5px #fedb5d solid;
+    transition: transform 0.2s;
+}
 }
