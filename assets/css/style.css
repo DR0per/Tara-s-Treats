@@ -6,7 +6,7 @@ body {
     font-weight: 550;
     color: whitesmoke;
     text-align: justify;
-    background-color: #046DF5;
+    background-color: #5DB5FE;
 }
 
 h1,
@@ -69,6 +69,7 @@ footer {
     padding-top: 20px;
     align-items: center;
     background-color: #fedb5d;
+    margin: 10px;
 }
 
 .social-links {
@@ -81,7 +82,7 @@ footer {
 
 .social-links i {
     font-size: 3rem;
-    color: #188bf4;
+    color: #5DB5FE;
     letter-spacing: 3rem;
 }
 
@@ -89,14 +90,14 @@ footer {
     float: left;
     font-size: 2rem;
     margin-left: 10px;
-    letter-spacing: 10px;
+    letter-spacing: 5px;
     margin-bottom: 10px;
     margin-top: 10px;
 }
 
 #nav-bar {
-    font-size: 1.5rem;
-    letter-spacing: 10px;
+    font-size: 1rem;
+    letter-spacing: 5px;
 }
 
 #nav-bar li {
@@ -133,7 +134,7 @@ footer {
 
 #treat-photos > img {
     width: 100%;
-    padding: 4px;
+    margin: 2px;
 }
 
 .about-us > p {
@@ -143,7 +144,6 @@ footer {
     margin: 4px;
     padding: 10px;
 }
-
 
 a > h2:hover {
     color: #f43f18;
@@ -158,7 +158,7 @@ a > h2 {
 }
 
 img:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 a {
@@ -168,14 +168,15 @@ a {
 /* form styling */
 
 .form {
-   display: flex;
-   justify-content: center;
-   background-color: #f43f18;
-   width: 50%;
-   margin: auto;
-   padding: 40px;
-   border-radius: 10px;
-   box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    background-color: #f43f18;
+    width: 50%;
+    margin: auto;
+    padding: 40px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    clear: both;
 }
 
 input[type="text"],
@@ -192,6 +193,7 @@ textarea {
     padding: 5px;
     max-height: 300px;
     color: black;
+    justify-content: center;
 }
 
 .fname,
@@ -206,20 +208,53 @@ textarea {
     display: flex;
 }
 
+.input {
+    justify-content: center;
+    display: flex;
+    margin: auto;
+}
 
 form > h1 {
     color: white;
     text-align: center;
 }
 
-@media only screen and (max-width: 1200px) {
+
+@media only screen and (max-width: 950px) {
+    .buns img,
+    .cakes img,
+    .occasions img {
+        height: 200px;
+        width: 200px;
+        object-fit: fill;
+        background-size: cover;
+        background-position: center;
+        border-radius: 50%;
+        border: 5px #fedb5d solid;
+        transition: transform 0.2s;
+    }
+
+    .social-links i {
+        font-size: 3rem;
+        color: #188bf4;
+        letter-spacing: 15px;
+    }
+
+    .form {
+        display: flex;
+        justify-content: center;
+        background-color: #f43f18;
+        width: 75%;
+        margin: auto;
+        padding: 40px;
+        border-radius: 10px;
+        box-sizing: border-box;
+    }
+
     #nav-bar {
-            clear: left;
-            float: left;
-            
+        float: left;
     }
 }
-
 
 @media only screen and (max-width: 500px) {
     .mobile-hidden {
@@ -233,31 +268,36 @@ form > h1 {
     .buns img,
     .cakes img,
     .occasions img {
-    height: 200px;
-    width: 200px;
-    object-fit: fill;
-    background-size: cover;
-    background-position: center;
-    border-radius: 50%;
-    border: 5px #fedb5d solid;
-    transition: transform 0.2s;
-}
+        height: 200px;
+        width: 200px;
+        object-fit: fill;
+        background-size: cover;
+        background-position: center;
+        border-radius: 50%;
+        border: 5px #fedb5d solid;
+        transition: transform 0.2s;
+    }
 
-.social-links i {
-    font-size: 3rem;
-    color: #188bf4;
-    letter-spacing: 15px;
-}
+    .social-links i {
+        font-size: 3rem;
+        color: #188bf4;
+        letter-spacing: 15px;
+    }
 
-.form {
-    display: flex;
-    justify-content: center;
-    background-color: #f43f18;
-    width: 75%;
-    margin: auto;
-    padding: 40px;
-    border-radius: 10px;
-    box-sizing: border-box;
- }
+    .form {
+        display: flex;
+        justify-content: center;
+        background-color: #f43f18;
+        width: 75%;
+        margin: auto;
+        padding: 40px;
+        border-radius: 10px;
+        box-sizing: border-box;
+    }
 
+    #nav-bar {
+        font-size: 0.7rem;
+        letter-spacing: 5px;
+        float: left;
+    }
 }
