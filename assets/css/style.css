@@ -6,13 +6,13 @@ body {
     font-weight: 550;
     color: whitesmoke;
     text-align: justify;
-    background-color: #5DB5FE;
+    background-color: #0560ab;
 }
 
 h1,
 h2 {
     font-family: Merienda, sans-serif;
-    color: #fedb5d;
+    color: #f1f906;
     text-transform: uppercase;
     text-decoration: none;
 }
@@ -32,7 +32,7 @@ h2 {
     margin-inline: auto;
     background-color: #f43f18;
     clear: both;
-    border: 10px #fedb5d solid;
+    border: 10px #f1f906 solid;
     margin-top: 5px;
 }
 
@@ -51,7 +51,7 @@ h2 {
     background-size: cover;
     background-position: center;
     border-radius: 50%;
-    border: 5px #fedb5d solid;
+    border: 5px #f1f906 solid;
     transition: transform 0.2s;
 }
 
@@ -68,7 +68,7 @@ footer {
     padding-bottom: 20px;
     padding-top: 20px;
     align-items: center;
-    background-color: #fedb5d;
+    background-color: #f1f906;
     margin: 10px;
 }
 
@@ -82,7 +82,7 @@ footer {
 
 .social-links i {
     font-size: 3rem;
-    color: #5DB5FE;
+    color: #0560ab;
     letter-spacing: 3rem;
 }
 
@@ -109,7 +109,7 @@ footer {
 }
 
 #nav-bar a {
-    color: #fedb5d;
+    color: #f1f906;
     font-family: Merienda, sans-serif;
     text-transform: uppercase;
     text-decoration: none;
@@ -177,6 +177,7 @@ a {
     border-radius: 10px;
     box-sizing: border-box;
     clear: both;
+    border: #f1f906 10px solid;
 }
 
 input[type="text"],
@@ -230,13 +231,13 @@ form > h1 {
         background-size: cover;
         background-position: center;
         border-radius: 50%;
-        border: 5px #fedb5d solid;
+        border: 5px #f1f906 solid;
         transition: transform 0.2s;
     }
 
     .social-links i {
         font-size: 3rem;
-        color: #188bf4;
+        color: #0560ab;
         letter-spacing: 15px;
     }
 
@@ -256,6 +257,7 @@ form > h1 {
     }
 }
 
+
 @media only screen and (max-width: 500px) {
     .mobile-hidden {
         display: none;
@@ -274,13 +276,13 @@ form > h1 {
         background-size: cover;
         background-position: center;
         border-radius: 50%;
-        border: 5px #fedb5d solid;
+        border: 5px #f1f906 solid;
         transition: transform 0.2s;
     }
 
     .social-links i {
         font-size: 3rem;
-        color: #188bf4;
+        color: #0560ab;
         letter-spacing: 15px;
     }
 
@@ -296,8 +298,8 @@ form > h1 {
     }
 
     #nav-bar {
-        font-size: 0.7rem;
-        letter-spacing: 5px;
+        font-size: 12px;
+        letter-spacing: 2px;
         float: left;
     }
 }
