@@ -305,3 +305,58 @@ form > h1 {
         float: left;
     }
 }
+
+@media only screen and (max-width: 350px) {
+    .mobile-hidden {
+        display: none;
+    }
+
+    #treat-photos {
+        column-count: 2;
+    }
+
+    .buns img,
+    .cakes img,
+    .occasions img {
+        height: 200px;
+        width: 200px;
+        object-fit: fill;
+        background-size: cover;
+        background-position: center;
+        border-radius: 50%;
+        border: 5px #f1f906 solid;
+        transition: transform 0.2s;
+    }
+
+    .social-links i {
+        font-size: 3rem;
+        color: #0560ab;
+        letter-spacing: 15px;
+    }
+
+    .form {
+        display: flex;
+        justify-content: center;
+        background-color: #f43f18;
+        width: 75%;
+        margin: auto;
+        padding: 40px;
+        border-radius: 10px;
+        box-sizing: border-box;
+    }
+
+    #nav-bar {
+        font-size: 12px;
+        letter-spacing: 2px;
+        float: left;
+    }
+
+    #treat-logo {
+        float: left;
+        font-size: 1rem;
+        margin-left: 10px;
+        letter-spacing: 5px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+}
